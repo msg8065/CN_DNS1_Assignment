@@ -48,7 +48,7 @@ def decrypt_with_aes(encrypted_data, password, salt):
 
 
 salt = 'Tandon'.encode('utf-8') # Remember it should be a byte-object
-password = 'sg8013@nyu.edu' #might change
+password = 'msg8065@nyu.edu' #might change
 input_string = 'AlwaysWatching'
 
 encrypted_value = encrypt_with_aes(input_string, password, salt)  # test function
@@ -61,7 +61,7 @@ def generate_sha256_hash(input_string):
     sha256_hash.update(input_string.encode('utf-8'))
     return sha256_hash.hexdigest()
 
-
+sg8013
 # A dictionary containing DNS records mapping hostnames to different types of DNS data.
 dns_records = {
     'example.com.': {
